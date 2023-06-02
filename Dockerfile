@@ -1,6 +1,6 @@
-FROM nickhrsims/esp32-development-base
+FROM nickhrsims/esp-adf
 
 COPY esp-adf.patch /opt
 
-WORKDIR /opt/esp-adf
+WORKDIR /opt/esp/adf
 RUN git apply /opt/esp-adf.patch

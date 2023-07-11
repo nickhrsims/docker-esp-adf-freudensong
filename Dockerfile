@@ -1,4 +1,4 @@
-FROM nickhrsims/esp-adf
+FROM nickhrsims/esp-adf:latest
 
 COPY esp-adf.patch /opt
 
